@@ -14,3 +14,16 @@ function darkTheme () {
     root.style.setProperty('--mainBorderColor', 'var(--mainBorderColor-dark)');
     root.style.setProperty('--mainBgColor', 'var(--mainBgColor-dark)');
 }
+
+
+let profilePicture = document.querySelector('#profile-pic');
+
+
+function change () {
+    profilePicture.src = "./pixel.jpeg"
+}
+
+function changeOut () {
+    profilePicture.src = "./profile.png"
+}
+
