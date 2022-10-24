@@ -20,10 +20,10 @@ let profilePicture = document.querySelector('#profile-pic');
 
 
 function change () {
-    profilePicture.src = "./pixel.jpeg"
+    profilePicture.src = "./assets/images/pixel.jpeg"
 }
 
 function changeOut () {
-    profilePicture.src = "./profile.png"
+    profilePicture.src = "./assets/images/profile.png"
 }
 
