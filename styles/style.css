@@ -22,6 +22,7 @@
 }
 
 
+
 * {
     font-family: 'Readex Pro';
     line-height: 1.5em;
@@ -31,6 +32,27 @@
 
 body {
     background-color: var(--mainBgColor);
+}
+
+.theme-button--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+#buton {
+    background-color: var(--mainBgColor);
+    color: var(--secondaryTextColor);
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+#buton:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.2s
+   
 }
 
 p,
