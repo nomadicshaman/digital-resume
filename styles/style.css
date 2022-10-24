@@ -154,6 +154,11 @@ a {
     border: 4px dotted gray;
 }
 
+.project--img:hover {
+    border: 2px dotted;
+
+}
+
 .line-break{
     background-color: var(--mainBorderColor);
     height: 1px;
