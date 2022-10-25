@@ -27,3 +27,19 @@ function changeOut () {
     profilePicture.src = "./assets/images/profile.png"
 }
 
+/*
+for adding multilanguage support later
+let language = {
+    eng: {
+        title: "About"
+
+    },
+    tr: { title: "Hakkımda"
+
+    }
+};
+
+function changeLanguage () {
+        abbout.textContent = language.tr.title;
+}
+*/
