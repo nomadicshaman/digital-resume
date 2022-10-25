@@ -151,7 +151,9 @@ a {
 .project--img {
     max-width: 250px;
     max-height: 250px;
-    border: 4px dotted gray;
+    min-width: 200px;
+    min-height: 200px;
+    border: 2px solid gray;
 }
 
 .project--img:hover {
@@ -175,8 +177,9 @@ a {
 }
 
 .card--project a{
-    color: var(--mainTextColor);
+    color: darkcyan;
     transition: 0.3s;
+
 }
 
 .card--project a:hover{
