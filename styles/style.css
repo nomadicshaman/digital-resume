@@ -32,6 +32,7 @@
 
 body {
     background-color: var(--mainBgColor);
+    padding: 75px;
 }
 
 .theme-button--container {
@@ -101,11 +102,15 @@ a {
 
 #profile-pic {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 8rem;
+    height: 9rem;
     object-fit: cover;
+    box-shadow: 0px 12px 17px 2px hsla(0,0%,0%,0.14), 
+    0px 5px 22px 4px hsla(0,0%,0%,0.12), 
+    0px 7px 8px -4px hsla(0,0%,0%,0.2);
     
 }
+
 
 #email {
     color: var(--mainTextColor);
